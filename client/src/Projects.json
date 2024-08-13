@@ -1,0 +1,24 @@
+{
+
+    "1": {
+        "title": "e-commerce ( Pickr )",
+        "type": "Web", 
+        "description":"The website is in progress, and detailed information will be available soon. Stay tuned! The site is already hosted to showcase what has been built so far.",
+        "technologies": {
+          "front": "Nextjs / tailwind / Nextui / Mui / Antd.",
+          "back": " mongodb / Prisma / Nextauth / Cloudinary.",
+          "dataBase": ""
+        },
+        "github": "#",
+        "link":"https://e-commerce-ivory-three.vercel.app/",
+        "images": {
+          "main": "../dist/assets/images/home.PNG",
+          "img1": "../dist/assets/images/shop.png",
+          "img2": "../dist/assets/images/store.png",
+          "img4": "../dist/assets/images/annonce.png"
+        }
+       
+      }
+
+}
+  

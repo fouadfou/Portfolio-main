@@ -1,0 +1,212 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand') */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Wind';
+    src: url("../dist/assets/fonts/Doctor Signature.otf");
+}
+
+
+@font-face {
+  font-family: 'Ginerin';
+  src: url("../dist/assets/fonts/Ginerin-Regular.otf");
+}
+
+@font-face {
+  font-family: 'Comic';
+  src: url("../dist/assets/fonts/SKULL BONES Bold22.otf");
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+@media screen and (max-width: 320px) {
+  .sub-container > h1  {
+        font-size:44px;
+  }
+
+  .sub-container sub {
+    font-size:54px;
+    left:2.7rem;
+    top:3.2rem;
+
+  }
+
+  .sub-container > p {
+    font-size : 12px;
+  }
+
+  .btn {
+    font-size:12px;
+    width:6rem;
+  }
+
+  .nav-list li {
+    font-size:12px;
+  }
+
+  .nav-list {
+    gap:1.5rem;
+  }
+  
+  .scroll-bottom {
+    bottom:7%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .shape div {
+        width:11rem;
+  }
+  .shape img {
+    width:7.5rem;
+    height:7.5rem;
+  }
+
+  .circles::after {
+
+    right: -13.5%!important;
+    border-radius: 60px !important;
+    width: 14rem !important;
+    height: 14rem !important;
+
+  }
+  
+  .circles::before {
+
+    right: -36.5%!important;
+    border-radius: 90px !important;
+    width: 19rem !important;
+    height: 19rem !important;
+  }
+
+  .shape {
+    right:14%
+  }
+
+
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFBF00;
+
+}
+
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; 
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; 
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
+}
+
+
+
+.arrow {
+  @apply stroke-text-color fill-transparent stroke-1  animate-arrow 
+}
+
+.custom-link {
+  @apply flex items-center justify-center md:w-[3.5rem] w-[5rem]  no-underline text-text-color md:text-[14px]  cursor-pointer
+  
+}
+
+
+.social-media {
+  @apply hover:text-[19px] ease-in-out duration-300 cursor-pointer 
+
+}
+
+
+.border-left{
+  @apply border-solid border-0 border-r-[0.05rem] border-white
+}
+
+
+.container {
+  height:100svh;
+}
+
+.circles::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -13.5%;
+  height: 19rem;
+  width: 19rem;
+  border-radius: 70px;
+  border: 2px solid #e7e7e789;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  opacity: 0.6;
+  transition-duration: 250ms;
+  animation: borderAnimation 20s infinite linear;
+
+}
+
+.circles::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30.5%;
+  height: 24rem;
+  width: 24rem;
+  border-radius: 100px;
+  border: 2px solid #e7e7e789;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  opacity: 0.6;
+  transition-duration: 250ms;
+  animation: borderAnimation 20s infinite linear;
+}
+
+
+
+@keyframes borderAnimation {
+  from { transform:translateY(-50%) rotate(0) ;
+  }
+  to { transform:translateY(-50%) rotate(180deg) ; 
+  }
+  }
+
