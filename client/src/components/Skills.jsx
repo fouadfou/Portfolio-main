@@ -5,7 +5,7 @@ import { TbBrandRedux } from 'react-icons/tb';
 import { SiMui, SiShadcnui, SiNextui, SiExpress, SiMongodb, SiSupabase, SiClerk } from 'react-icons/si';
 import { AiOutlineAntDesign } from 'react-icons/ai';
 import { GrMysql } from 'react-icons/gr';
-import restapi from '../../dist/assets/images/rest-api-icon.svg'; 
+import restapi from '/assets/images/rest-api-icon.svg'; 
 
 const Skills = () => {
 

@@ -3,7 +3,7 @@ import Button from "./Button";
 import ScrollReveal from "scrollreveal";
 import ScrollBottom from "./ScrollBottom";
 import { refContext } from "../App";
-import bg from "../../dist/assets/images/background.png"
+import bg from "/assets/images/background.png"
 
 
 const HeaderContainer = () => {

@@ -1,8 +1,8 @@
 import React from "react";
-import img from "../../dist/assets/images/77108000_133044601466386_5568512050876907520_n.jpg";
-import webdev from "../../dist/assets/images/coding.svg";
-import ui from "../../dist/assets/images/ui.svg";
-import support from "../../dist/assets/images/support.svg"
+import img from "/assets/images/77108000_133044601466386_5568512050876907520_n.jpg";
+import webdev from "/assets/images/coding.svg";
+import ui from "/assets/images/ui.svg";
+import support from "/assets/images/support.svg"
 
 const Services = ({ sectionRef , bg}) => {
   const headerStyles = {

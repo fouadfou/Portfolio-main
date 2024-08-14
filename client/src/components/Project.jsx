@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+
 import { motion } from "framer-motion";
 
 const Project = ({
@@ -12,6 +12,8 @@ const Project = ({
   link
 
 }) => {
+
+  
   const removeMoreInfo = () => {
     if (!showMoreInfo.show) {
       document.body.style.overflow = "hidden";
@@ -47,7 +49,7 @@ const Project = ({
           <div className=" opacity-0 -transform translate-y-4 transition-[transform,opacity] ease group-hover:translate-y-0 duration-500  group-hover:opacity-100 delay-200">
             <div className="relative flex gap-[6%]  ">
               <a href="">Github</a>
-              <a className=" hover:text-[#FFBF00]" href={link}>
+              <a target="_blank" rel="noopener noreferrer" className=" hover:text-[#FFBF00]" href={link}>
                 Link
               </a>
               <button

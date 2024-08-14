@@ -1,5 +1,5 @@
 import  { useEffect} from "react";
-import img from "../../dist/assets/images/77108000_133044601466386_5568512050876907520_n.jpg";
+import img from "/assets/images/77108000_133044601466386_5568512050876907520_n.jpg";
 import Skills from "../components/Skills";
 
 import resume from '../cv.pdf'

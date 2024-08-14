@@ -1,5 +1,5 @@
 import  { useRef, useEffect, createContext } from "react";
-import bg from "../dist/assets/images/background2.png"
+import bg from "/assets/images/background2.png"
 import NavBar from "./components/NavBar";
 import Home from "./sections/Home";
 import About from "./sections/About";

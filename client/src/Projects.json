@@ -12,10 +12,10 @@
         "github": "#",
         "link":"https://e-commerce-ivory-three.vercel.app/",
         "images": {
-          "main": "../dist/assets/images/home.PNG",
-          "img1": "../dist/assets/images/shop.png",
-          "img2": "../dist/assets/images/store.png",
-          "img4": "../dist/assets/images/annonce.png"
+          "main": "/assets/images/home.PNG",
+          "img1": "/assets/images/shop.png",
+          "img2": "/assets/images/store.png",
+          "img4": "/assets/images/annonce.png"
         }
        
       }

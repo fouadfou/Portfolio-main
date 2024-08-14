@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import img from "../../dist/assets/images/bg.jpg";
+import img from "/assets/images/bg.jpg";
 import ScrollReveal from "scrollreveal";
 
 const Shape = () => {

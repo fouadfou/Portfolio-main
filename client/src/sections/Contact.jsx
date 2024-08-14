@@ -1,6 +1,6 @@
 import  { useState } from "react";
-import img from "../../dist/assets/images/shaking hands.png";
-import bg from "../../dist/assets/images/contact-bg.svg"
+import img from "/assets/images/shaking hands.png";
+import bg from "/assets/images/contact-bg.svg"
 import axios from "axios";
 
 

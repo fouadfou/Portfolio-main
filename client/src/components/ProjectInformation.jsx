@@ -5,7 +5,7 @@ import {
   Navigation,
   Pagination,
 } from "swiper/modules";
-import bg from "../../dist/assets/images/background2.png"
+import bg from "/assets/images/background2.png"
 
 // Import Swiper styles
 import "swiper/css";

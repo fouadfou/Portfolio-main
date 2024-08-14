@@ -8,18 +8,18 @@
 
 @font-face {
     font-family: 'Wind';
-    src: url("../dist/assets/fonts/Doctor Signature.otf");
+    src: url("/assets/fonts/Doctor Signature.otf");
 }
 
 
 @font-face {
   font-family: 'Ginerin';
-  src: url("../dist/assets/fonts/Ginerin-Regular.otf");
+  src: url("/assets/fonts/Ginerin-Regular.otf");
 }
 
 @font-face {
   font-family: 'Comic';
-  src: url("../dist/assets/fonts/SKULL BONES Bold22.otf");
+  src: url("/assets/fonts/SKULL BONES Bold22.otf");
 }
 
 *{
