@@ -46,7 +46,7 @@ const ProjectInformation = ({ setShowMoreInfo, project }) => {
             "--swiper-pagination-bullet-inactive-opacity": 0.5,
             "--swiper-pagination-bullet-inactive-color": "#e7e7e7e0",
           }}
-          className="w-full py-[75px] px-3 md:px-0  h-fit "
+          className="min-w-full py-[75px] px-3 md:px-0  h-fit "
           effect="coverflow"
           grabCursor={true}
           centeredSlides
@@ -75,7 +75,7 @@ const ProjectInformation = ({ setShowMoreInfo, project }) => {
           {Object.values(project.images).map((img, index) => (
             <SwiperSlide
               key={index}
-              className={` p-1 swiper-slide transition-all ease-linear duration-500 bg-opacity-20  bg-gray-100 h-[350px] w-[250px] rounded-xl shadow-md`}
+              className={` p-1 swiper-slide  bg-opacity-20  bg-gray-100 h-[350px] w-[250px] rounded-xl shadow-md`}
             >
               <img className="h-full w-full rounded-lg" src={img} alt="" />
             </SwiperSlide>
