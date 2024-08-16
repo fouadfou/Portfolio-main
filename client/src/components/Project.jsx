@@ -62,7 +62,7 @@ const Project = ({
           </div>
         </div>
       </div>
-      <h2 className="text-[11px] sm:text-base mt-2 sm:mt-3">{title}</h2>
+      <h2 className="text-[12px] sm:text-base mt-3 sm:mt-4">{title}</h2>
     </motion.div>
   );
 };
