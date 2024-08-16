@@ -75,7 +75,7 @@ const ProjectInformation = ({ setShowMoreInfo, project }) => {
           {Object.values(project.images).map((img, index) => (
             <SwiperSlide
               key={index}
-              className={` p-1 swiper-slide  bg-opacity-20  bg-gray-100 h-[350px] w-[250px] rounded-xl shadow-md`}
+              className={` p-1 swiper-slide  bg-opacity-20  bg-gray-100 h-[250px] sm:h-[350px] w-[250px] rounded-xl shadow-md`}
             >
               <img className="h-full w-full rounded-lg" src={img} alt="" />
             </SwiperSlide>
@@ -98,17 +98,17 @@ const ProjectInformation = ({ setShowMoreInfo, project }) => {
         className="fas fa-times z-20 cursor-pointer bg-[#FFBF00] duration-200 bg-opacity-70 hover:bg-opacity-100  rounded-full p-1 px-[7px] absolute top-[1rem] right-[1.2rem] text-[16px] text-center shadow-md "
       ></i>
 
-      <div className=" p-10">
-        <div className="p-12 flex flex-col  gap-2 bg-[#F7F7F8]  rounded-lg border-[2px] border-opacity-70 border-[#FFBF00]">
+      <div className=" p-4 md:p-10">
+        <div className="p-8 md:p-12 flex flex-col  gap-2 bg-[#F7F7F8]  rounded-lg border-[2px] border-opacity-70 border-[#FFBF00]">
 
           <div className="flex items-center gap-3 ">
-            <span className="bg-[#FFBF00] h-4 w-4 rounded-full"></span>
+            {/* <span className="bg-[#FFBF00] min-h-4 min-w-4 rounded-full"></span> */}
             <h1 className="text-2xl  font-bold">
-                Project Details :
+                - Project Details :
               </h1>
           </div>
 
-          <p className="ml-7 mt-2">
+          <p className="sm:ml-7 mt-2">
             <strong>Project Description : </strong>
             {project.description}
           </p>
@@ -146,12 +146,12 @@ const ProjectInformation = ({ setShowMoreInfo, project }) => {
               
 
               <div className="flex items-center gap-3 mt-6 ">
-            <span className="bg-[#FFBF00] h-4 w-4 rounded-full"></span>
+           {/*  <span className="bg-[#FFBF00]  h-3 w-3  rounded-full "></span> */}
             <h1 className="text-2xl  font-bold">
-            Development Technologies :
+            - Development Technologies :
               </h1>
           </div >
-          <div className="pl-7 mt-2">
+          <div className=" sm:ml-7 mt-2">
               {project.technologies.front && (
                 <div>
                   <h2 className="font-semibold">Front-End :</h2>
