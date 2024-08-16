@@ -69,7 +69,7 @@ const Works = ({ sectionRef , bg }) => {
 
         <div style={{backgroundImage:`url(${bg})`, backgroundPosition:"center" ,backgroundSize:"cover"}} className="  w-full pt-[5rem] p-[5rem]  mt-8 flex flex-col items-center gap-14">
           {filtred.length > 0 ? (
-            <motion.ul className="relative h-fit  w-full  text-text-color grid grid-cols-projects  gap-x-16 gap-y-10 md:gap-y-8 ">
+            <motion.ul className="relative h-fit   w-full  text-text-color grid  justify-center grid-cols-projects  gap-x-16 gap-y-10 md:gap-y-8 ">
               {filtred.slice(0, projectsToShow).map((proj, index) => (
                 <li className={`project `} key={index}>
                   <Project
