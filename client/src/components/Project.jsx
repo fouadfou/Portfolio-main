@@ -8,7 +8,7 @@ const Project = ({
   showMoreInfo,
   setShowMoreInfo,
   ProjectIndex,
-  description,
+  description2,
   link
 
 }) => {
@@ -43,7 +43,7 @@ const Project = ({
 
         <div className="sm:px-[6%] sm:py-[4%] px-[5%] py-[4%] rounded-[16.5px] overflow-hidden h-full w-full flex flex-col justify-between   ease-linear bg-black right-0 bg-opacity-80  absolute  top-0 duration-300 opacity-0  group-hover:opacity-100  ">
           <p className=" md:leading-8 w-full text-[10px]  sm:text-base opacity-0 ease duration-500  group-hover:opacity-100 delay-200 transform translate-x-20 group-hover:translate-x-0">
-            {description}
+            {description2}
           </p>
 
           <div className=" opacity-0 -transform translate-y-4 transition-[transform,opacity] ease group-hover:translate-y-0 duration-500  group-hover:opacity-100 delay-200">

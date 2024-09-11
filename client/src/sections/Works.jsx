@@ -87,7 +87,7 @@ const Works = ({ sectionRef , bg }) => {
                     key={index}
                     img={proj.images.main}
                     title={proj.title}
-                    description={proj.description}
+                    description2={proj.description2}
                     link={proj.link}
                   />
                   

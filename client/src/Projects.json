@@ -4,6 +4,7 @@
         "title": "e-commerce ( Pickr )",
         "type": "Web", 
         "description":"The website is in progress, and detailed information will be available soon. Stay tuned! The site is already hosted to showcase what has been built so far.",
+        "description2":"The website is in progress , I do not have products available for all categories yet. To view existing products, please select the 'Fashion Accessories' category",
         "technologies": {
           "front": "Nextjs / tailwind / Nextui / Mui / Antd.",
           "back": " mongodb / Prisma / Nextauth / Cloudinary.",
@@ -13,9 +14,31 @@
         "link":"https://e-commerce-ivory-three.vercel.app/",
         "images": {
           "main": "/assets/images/home.PNG",
-          "img1": "/assets/images/shop.png",
+          "img1": "/assets/images/shop.PNG",
           "img2": "/assets/images/store.png",
           "img4": "/assets/images/annonce.png"
+        }
+       
+      },
+      "2": {
+        "title": "e-learning",
+        "type": "Web", 
+        "description": "This e-learning platform is designed for schools, enabling administrators to create accounts for both parents and teachers. Parents can use their accounts to monitor their children's progress, access homework assignments, exam grades, timetables, and transcripts for each trimester using the student’s unique ID. The platform also facilitates communication between parents and teachers through a chat feature. Teachers can assign homework assignments and record exam and homework grades directly on the platform. Additionally, parents receive email notifications if their child is absent from school. \nAdmin Username: sohaib, Password: sohaibtalhi123 / Parent Username: ammar, Password: sohaibtalhi123 / Teacher Username: farouk, Password: sohaibtalhi123",
+        "description2":"An e-learning platform designed for schools, allowing parents to monitor their children's progress and communicate with teachers. Teachers can post homework and record grades directly on the platform",
+        "technologies": {
+          "front": "Nextjs / tailwind / Nextui / Mui / Antd.",
+          "back": "PostgreSQL / Clerk auth / Supabase.",
+          "dataBase": ""
+        },
+        "github": "#",
+        "link":"https://e-learning-delta-beige.vercel.app/",
+        "images": {
+          "main": "/assets/images/e_home.PNG",
+          "img1": "/assets/images/e_admin.PNG",
+          "img2": "/assets/images/parentSpace.png",
+          "img4": "/assets/images/e_msg1.PNG",
+          "img5": "/assets/images/e_msg2.PNG",
+          "img6": "/assets/images/ensg_space.PNG"
         }
        
       }
