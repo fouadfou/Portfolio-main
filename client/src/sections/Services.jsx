@@ -36,7 +36,7 @@ const Services = ({ sectionRef , bg}) => {
 
             <div className="leading-9">
               - Full-Stack Development <br />
-              - Front-end development (HTML, CSS, JavaScript , React) <br />
+              - Front-end development (HTML, CSS, JavaScript , React ,Nextjs) <br />
               - Back-End Development (Node.js,Express.js) <br />
               - Responsive web design <br />
               - Cross-browser compatibility <br />
@@ -44,7 +44,7 @@ const Services = ({ sectionRef , bg}) => {
             </div>
           </li>
 
-          <li className="flex-1  text-center border-y-[1.5px] border-x-0 lg:border-y-0  lg:border-x-[1.5px]  p-10 ">
+         {/*  <li className="flex-1  text-center border-y-[1.5px] border-x-0 lg:border-y-0  lg:border-x-[1.5px]  p-10 ">
             <div className="flex flex-col items-center gap-5 mb-5">
               <img  src={ui} alt="" className="h-11" />
               <h2 className="text-2xl font-black text-center ">
@@ -59,7 +59,7 @@ const Services = ({ sectionRef , bg}) => {
               - Information Architecture <br />
               - Tools : Figma <br />
             </div>
-          </li>
+          </li> */}
 
           <li className="flex-1  text-center border-y-[1.5px] border-x-0 lg:border-y-0  lg:border-x-[1.5px]  p-10 ">
             <div className="flex flex-col items-center gap-5 mb-5">
